@@ -1,0 +1,58 @@
+
+li{
+ margin: 30px;
+
+}
+
+ul{
+    display: flex;  
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav 
+    {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(135, 222, 213) ;
+    border: rgb(42, 126, 165) 2px solid;
+    height:  100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+a:active{
+    color: white;
+}
+
+a:link{
+    color: bisque;
+}
+a:visited{
+    color: rgb(53, 42, 29);
+}
+
+
+@media only screen and (max-width: 600px)  
+{li{
+        font-size: small;
+        margin: 5px;
+    
+       }
+       img{
+        height: 50px;
+    } nav 
+    { 
+        background-color: plum;
+        height: 50px;
+    
+}
+    }
+       
+
